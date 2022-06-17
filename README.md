@@ -1,4 +1,7 @@
 # csbeg12
+
+Aplicação para anúncio de imóveis utilizando conceitos de computação distribuída. 
+
 Passo a Passo:
 1.	 Download e rodar instalador Node.js no link: https://nodejs.org/en/download/
 
