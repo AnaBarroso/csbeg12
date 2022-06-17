@@ -1,0 +1,138 @@
+Pessoa
+{
+    "cpf" : 129854,
+    "nome" : "fulano",
+    "sexo" : "M"
+}
+usuario
+{
+
+    "pessoa_id" : 1,
+    "username" : "serjaum",
+    "email": "serjaumBerranteiro.br",
+    "password" : "1234",
+    "permissao" : "cliente"
+
+}
+teste login
+{
+    "email": "user@teste.com",
+    "password" : "1234"
+
+}
+cliente
+{
+    "pessoa_id" : 1,
+    "estado_civil" : "solteiro",
+    "profissao" : "desempregado" 
+}
+cargo
+{
+    "nome" : "Vendedor",
+    "salario_base" : 2000
+}
+funcionario
+{
+    "data_ingresso" : "22/10/2021",
+    "cargo_id" : 1,
+    "pessoa_id": 3
+}
+user
+{
+    "pessoa_id" :"",
+    "username" :"",
+    "email" :"",
+    "password" :"",
+    "permissao" :""
+}
+Telefone
+{
+    "id": 1,
+    "numeroT":"324852",
+    "tipoNumero": "fixo",
+    "pessoa_id" : 1
+
+}
+endereco_pessoa
+{
+    "pessoa_id" : 1,
+    "logadouro" : "rua f",
+    "bairro" : "bairro",
+    "numero" : 132
+}
+endereco_imovel
+{
+    "imovei_id":1,
+     "bairro": "Vilas Boas",
+     "logradouro": "Rua do bolivar",
+     "numero": "105"
+}
+Imovel
+{
+    "cliente_id":1,
+    "area":200,
+    "valor_loc":800,
+    "valor_vend":15000,
+    "data_const":"10/10/2020",
+    "end_foto":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThoy82qm-gWiaHlkRxp6JJfQkbzlnJa-K9xQ&usqp=CAU",
+    "situacao":"disponivel_venda"
+}
+Terreno
+{
+    "id":1
+    ,"largura":30
+    ,"comprimento":12
+    ,"nivel":"nivelado"
+}
+AP
+{
+    "id": 2,
+     "qtd_comodos": 5,
+     "qtd_suites": 2,
+     "qtd_salas_estar": 1,
+     "qtd_salas_jantar": 1,
+     "num_vagas_garagem": 1,
+     "armario_imbutido": true,
+     "descricao": " Apartamento",
+     "andar": 1,
+     "valor_condo": 500,
+     "portaria_24hrs": false
+}
+
+
+Casa
+{
+    "id":3, 
+    "qtd_comodos":2, 
+    "qtd_suites":2, 
+    "qtd_salas_estar":1, 
+    "qtd_salas_jantar":1, 
+    "num_vagas_garagem":2, 
+    "armario_imbutido":true, 
+    "descricao":"disponivel_venda"
+    
+      
+}
+comercial
+{
+    "id": 4,
+    "qtd_banheiros": 1,
+    "qtd_comodos":2
+}
+transação
+{
+    "num_contrato":1,
+    "tipo_trans":"venda",
+    "valor_operacao_imovel":20000,
+    "valor_real":25000,
+    "forma_pagamento":"Dinheiro",
+    "funcionario_id":1,
+    "cliente_propietario_id":1,
+    "cliente_usuario_id":2,
+    "imovei_id":1
+}
+{
+    "email":""
+    "password":"juzinha220583"
+}
+
